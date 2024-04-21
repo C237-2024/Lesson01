@@ -19,7 +19,7 @@
 [22034013-Saricha/01/SelfIntro_Saricha_MiniActivity1.html](/22034013-Saricha/01/SelfIntro_Saricha_MiniActivity1.html)  
 [22034013-Saricha/02/contact.html](/22034013-Saricha/02/contact.html)  
 [22034013-Saricha/02/home.html](/22034013-Saricha/02/home.html)  
-[22034013-Saricha/02/Product page.html](/22034013-Saricha/02/Product page.html)  
+[22034013-Saricha/02/Productpage.html](/22034013-Saricha/02/Productpage.html)  
 
 [23008417-Joshua/Form.html](/23008417-Joshua/Form.html)  
 [23008417-Joshua/SelfIntro.html](/23008417-Joshua/SelfIntro.html)  
@@ -87,12 +87,12 @@
 [23016648-Kayden/Selfintro.html](/23016648-Kayden/Selfintro.html)  
 [23018351-Eden/01/L1 html form.html](/23018351-Eden/01/L1 html form.html)  
 
-[23018351-Eden/01/L1 html selfintro.html](/23018351-Eden/01/L1 html selfintro.html)  
-[23018351-Eden/02/apple description.html](/23018351-Eden/02/apple description.html)  
-[23018351-Eden/02/contact page for website.html](/23018351-Eden/02/contact page for website.html)  
-[23018351-Eden/02/milk description.html](/23018351-Eden/02/milk description.html)  
-[23018351-Eden/02/product page for website.html](/23018351-Eden/02/product page for website.html)  
-[23018351-Eden/02/red snapper description.html](/23018351-Eden/02/red snapper description.html)  
+[23018351-Eden/01/L1htmlselfintro.html](/23018351-Eden/01/L1 htmlselfintro.html)  
+[23018351-Eden/02/appledescription.html](/23018351-Eden/02/appledescription.html)  
+[23018351-Eden/02/contactpageforwebsite.html](/23018351-Eden/02/contactpageforwebsite.html)  
+[23018351-Eden/02/milkdescription.html](/23018351-Eden/02/milkdescription.html)  
+[23018351-Eden/02/productpageforwebsite.html](/23018351-Eden/02/productpageforwebsite.html)  
+[23018351-Eden/02/redsnapperdescription.html](/23018351-Eden/02/redsnapperdescription.html)  
 [23018351-Eden/02/website.html](/23018351-Eden/02/website.html)  
 
 [23018379-ZiChun/form.html](/23018379-ZiChun/form.html)  
