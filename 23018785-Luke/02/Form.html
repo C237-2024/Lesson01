@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Self Introduction Form</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form name="frmExample" method="post" action="doProcess.php">
+        Fullname:
+        <input name="fullname" type="text" required placeholder="enter your fullname"/>
+        <br/><br/>
+        Email: <input name="email" type="email" required/>
+        <br/><br/>
+        Phone: <input name="phone" type="number" required/>
+        <br/><br/>
+        <input type="submit" value="Submit"/>
+        <br/><br/>
+        Gender:
+        <br/><br/>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <br/><br/>
+        Date of Birth:
+        <input name="dob" type="date">
+        <br/><br/>
+        Tell me about yourself:
+        <textarea cols="40" rows="5" name="comments"></textarea>
+        <br/><br/>
+        <input id="submit" type="submit"/>
+        <br/><br/>
+        <a href="">Back</a> to home page
+    </form>
+</body>
+</html>

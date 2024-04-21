@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form name="frmExample" method="post" action="doProcess.php">
+        Name:
+        <input name="fullname" type="text" required placeholder="enter your full name" />
+        <br /><br />
+
+        Gender:
+        <input type="radio" name="genders" value="male">male <input type="radio" name="genders"
+            value="female">female<br>
+
+        Email: <input name="email" type="email" required/>
+        <br /><br />
+
+        Phone: <input name="phone" type="number" required/>
+        <br /><br />
+
+        Date of Birth: <input type="date" id="dob" name="dob">
+        <br>
+
+
+
+        Tell us more about yourself:
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+
+        <input type="submit" value="Submit" />
+
+        <p><a href="SelfIntro.html" target="_blank">Back</a> to intro page
+    </form>
+</body>
+
+</html>

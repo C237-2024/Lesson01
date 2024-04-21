@@ -1,0 +1,24 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+
+#module-list {
+    background-color: lightgrey;
+}
+
+
+a:hover {
+    color: darkblue;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+}

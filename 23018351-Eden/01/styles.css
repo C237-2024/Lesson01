@@ -1,0 +1,5 @@
+#module {background-color: lightgray;}
+h1 {color: blue;}
+body {font-family: Arial}
+a:hover {color:yellowgreen}
+[type = "submit"] {background-color: orange; color: white;}

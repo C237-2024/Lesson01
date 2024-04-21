@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Self Introduction Form</h1>
+
+    <form action = "/actionPage" method = "POST">
+
+        Name:
+        <input type = "text" name="Name" size = "25" maxlength = "45"/>
+        <br/><br/>
+
+        Gender:
+        <input type = "radio" name="Gender" value=" Male"> Male
+        <input type = "radio" name="Gender" value=" Female"> Female<br>
+        <br/><br/>
+       
+        Email:
+        <input name = "Email" type = "email" size = "25" required/>
+        <br/><br/>
+
+        Phone:
+        <input name = "Phone" type = "number " size = "25" required/>
+        <br/><br/>
+
+        Date of Birth:
+        <input name = "DOB" type ="date" required placeholder ="dd/mm/yy"
+        size = "25" required/>
+        <br/><br/>
+
+        Tell us more about yourself:
+        <textarea cols = "40" rows = "5" name="comments"></textarea>
+        <br/><br/>
+
+        <input type = "submit" value = "Submit"/>
+        <br/><br/>
+
+        <p><a href = "L1 html selfintro.html" target = "_blank">Back </a>to intro page</p>
+    </form>
+</body>
+</html>

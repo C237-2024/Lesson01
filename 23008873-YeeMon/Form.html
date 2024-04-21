@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Introduction Form</title>
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+
+<body>
+    <h1>Self Introduction Form</h1>
+    
+    <form name="SelfIntroForm" method="post" actions="doProcess.php">
+        Name:
+        <input name="fullname" type="text" required/>
+
+        <br/><br/>
+        Gender:
+        <br/><br/>
+        <input type="radio" name="drinks" value="Male">Male<br>
+        <input type="radio" name="drinks" value="Female">Female<br>
+
+        <br/><br/>
+        Email:
+        <input name="email" type="email" required/>
+
+        <br/><br/>
+        Phone:
+        <input name="phone" type="number" required/>
+
+        <br/><br/>
+        Date of Birth:
+        <input name="dateofbirth" type="date" required/>
+
+        <br/><br/>
+        Tell us more about yourself:
+        <textarea cols="40" rows="10" name="comments"></textarea>
+
+        <br/><br/>
+        <input id="submitbtn" type="submit"/>
+        
+        <p><a href="http://127.0.0.1:5500/SelfInto.html">Back</a> to intro page.</p>
+    </form>
+
+</body>
+
+</html>

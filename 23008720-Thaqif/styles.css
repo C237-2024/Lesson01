@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    color: blue;
+}
+
+ul {
+    background-color: lightgray;
+}
+
+#roblox {
+    color: gold;
+}
+
+#roblox:visited {
+    color: gold;
+}
+
+#roblox:hover {
+    color: purple;
+}
+
+a:hover {
+    color: purple;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+}

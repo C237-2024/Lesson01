@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+.module-list {
+    background-color: lightgrey;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: darkorange;
+}

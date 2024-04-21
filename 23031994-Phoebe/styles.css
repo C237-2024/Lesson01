@@ -1,0 +1,5 @@
+h1{ color: blue}
+body{font: arial}
+.mods{background-color: lightgray}
+a:hover{color: yellow}
+[type="submit"] {background-color:orange; color: white;}

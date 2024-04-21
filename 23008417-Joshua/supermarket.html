@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FairPrice Supermarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">FairPrice</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<section class="container mt-3">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.fairprice.com.sg/wp-content/uploads/2019/01/fairprice-express-970x585.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://shiokeats.sg/wp-content/uploads/2023/05/FairPrice-Finest-The-Woodleigh-Mall-Storefront-1024x576.jpeg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.fairpricegroup.com.sg/wp-content/uploads/2023/07/FPG50-tasteofifnest.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</section>
+
+<!-- Product Page -->
+<section id="products" class="container mt-5">
+    <h2>Our Products</h2>
+    <div class="row">
+        <!-- Product 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/13111322_XL1_20230815.jpg?w=320&q=60" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Royal Umbrella Thai Thorn Mali Rice</h5>
+                    <p class="card-text">5kg.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/458564_XL1_20230106.jpg?w=320&q=60" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Farmhouse Milk - Fresh</h5>
+                    <p class="card-text">946ml</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/13110938_XL1_20230815.jpg?w=320&q=60" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Pursoft kitchen towel roll (2ply)</h5>
+                    <p class="card-text">6x60 per pack</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Product Description -->
+<section class="container mt-5">
+    <h2>Featured Product</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/12387644_XL1_20220228.jpg?w=320&q=60" class="img-fluid" alt="Pringles">
+        </div>
+        <div class="col-md-6">
+            <h3>Pringles - Sour Cream and Onion</h3>
+            <p>Buy 2, get 2 Free!</p>
+            <ul>
+                <li>Crispy texture</li>
+                <li>Flavorful with every bite</li>
+                <li>Addictive</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us -->
+<section id="contact" class="container mt-5">
+    <h2>Got Questions? Leave a Message here</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

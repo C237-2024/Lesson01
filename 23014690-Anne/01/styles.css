@@ -1,0 +1,20 @@
+body{
+    font: Arial;
+}
+
+h1 {
+    color: blue
+}
+
+#module-title{
+    background-color:lightgrey;
+}
+
+a:hover{
+    color:orange
+}
+
+[type="submit"] {
+    background-color: orange;
+    color: white
+}

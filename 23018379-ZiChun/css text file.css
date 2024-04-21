@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+h1 {
+    color: blue;
+  }
+  
+ul {
+    background-color: lightgrey;
+  }
+  
+a:hover {
+    color: pink;
+  }
+  
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+  }
+  

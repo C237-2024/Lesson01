@@ -1,0 +1,50 @@
+.nav-item a{
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: blue;
+}
+
+.carousel-item img {
+    width: 100%; /* Makes the image use the full width of the carousel */
+    height: 500px; /* Sets a fixed height */
+    object-fit: cover; /* This will cover the area without stretching the image */
+    padding-bottom: 50px;
+}
+
+.products{
+    width: 300px;
+    height: 300px;
+}
+
+.products img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body{
+    margin: 30px;
+}
+
+.card-body img{
+    padding-bottom: 50px;
+}
+
+form{
+    padding: 50px;
+}
+
+.form-row{
+    display: flex;
+    padding: 10px;
+}
+
+.form-group{
+    padding: 10px;
+}
+.col{
+    max-width: 500px;
+    padding-right: 10px;
+}
+

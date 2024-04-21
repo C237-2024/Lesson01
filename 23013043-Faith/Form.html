@@ -1,0 +1,32 @@
+
+<html>
+<head>
+
+    <title>Self Introduction Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Self Introduction Form</h1>
+    <form action="submit_your_action_page_here" method="POST">
+        <p><label for="name">Name:</label></p>
+        <p><input type="text" id="name" name="name" required></p>
+        <p><label for="gender">Gender:</label></p>
+        <p><select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select></p>
+        <p><label for="email">Email:</label></p>
+        <p><input type="email" id="email" name="email" required></p>
+        <p><label for="phone">Phone:</label></p>
+        <p><input type="text" id="phone" name="phone" required></p>
+        <p><label for="dob">Date of Birth:</label></p>
+        <p><input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy" required></p>
+        <p><label for="info">Tell us more about yourself:</label></p>
+        <p><textarea id="info" name="info" required></textarea></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <p><a href="Selfintro.html">Back to intro page</a></p>
+</body>
+</html>
+

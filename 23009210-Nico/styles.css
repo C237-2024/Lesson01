@@ -1,0 +1,12 @@
+header{
+    color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+[type="submit"] {
+    background-color: orange;
+    color:white;
+}
+
+a[href^="www."] {color: orange;}

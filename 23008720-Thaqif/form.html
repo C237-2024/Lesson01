@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intro Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Self Introduction Form</h1>
+    <form action="/actionPage" method="POST">
+        Name:
+        <input type="text" name="firstName" required />
+        <br><br>
+        Gender:
+        <input type="radio" name="Gender" value="Male" required />Male
+        <input type="radio" name="Gender" value="Female" required />Female
+        <br><br>
+        Email:
+        <input type="email" name="email" required />
+        <br><br>
+        Phone:
+        <input type="number" name="Phone" required />
+        <br><br>
+        Date of Birth:
+        <input type="date" name="Date" />
+        <br><br>
+        Tell us more about yourself
+        <textarea cols="40" rows="5" name="comments"></textarea>
+        <br><br>
+        <input type="submit" />
+    </form>
+    <p><a target="_blank" rel="noopener noreferrer" href="SelfIntro.html">Back</a> to intro page.</p>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.image-border {
+    border: 100px solid yellow;
+}
+
+#module-list ul {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: blue;
+}

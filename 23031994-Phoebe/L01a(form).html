@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A form</title>
+</head>
+<body>
+    <form name="frmExample" method="post" action="doProcess.php">
+        Fullname:
+        <input name="fullname" type="text" required placeholder="enter your fullname"/> 
+        <br/><br/>
+        Gender:
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Other">Other
+        <br/><br/>
+        Email: 
+        <input name="email" type="email" required/>
+        <br/><br/>
+        phone:
+        <input name="phone" type="number" required/>
+        <br/><br/>
+        date of birth:
+        <input name="Date of Birth" type="date">
+        <br/><br/>
+        More about yourself:
+        <textarea cols="40" rows="5" name="comments"></textarea>
+        <br/><br/>
+        <input type="submit" value="submit"/>
+    </form>
+    <p><a href="L01a.html">Back</a> to home page</p>
+</body>
+</html>

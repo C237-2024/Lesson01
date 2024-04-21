@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+}
+
+body { 
+    font-family: arial;
+}
+
+ul{
+    background-color: lightgrey;
+}
+
+.link:hover{
+    color: orange;
+}
+
+#submit{
+    background: orange;
+    color: white;
+}
